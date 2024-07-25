@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: aquamarine;
+}
+
+#top{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 70%;
+    background-color: bisque;
+}
+
+#toplft{
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    width: 80%;
+    height: 100%;
+    background-color: #ECECEE;
+}
+
+#image{
+    width: 100%;
+    height: 100%;
+    background-color: brown;
+    background-image: url(https://images.unsplash.com/photo-1501004318641-b39e6451bec6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1073&q=80);
+    background-position: center;
+    background-size: cover;
+    
+}
+#toplft h1{
+    position: absolute;
+    margin: 20px 0 0 30px;
+    font-size: 25px;
+}
+
+#arrow{
+    font-size: 30px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 0px;
+    bottom: 0px;
+    background-color: #ffffff;
+    position: absolute;
+    width: 70px;
+    height: 50px;
+}
+
+
+#toprgt{
+    position: relative;
+    width: 20%;
+    height: 100%;
+    background-color: rgb(96, 197, 197);
+}
+
+#icon1{
+    position: absolute;
+    right: 0;
+    margin: 15px 12px 0 0 ;
+    width: 30px;
+    /* height: 90px; */
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 30px;
+}
+
+#hawa{
+    top: 30px;
+    left: -0px;
+    position: absolute;
+    transform: rotate(90deg);
+}
+
+#data{
+    overflow: hidden;
+    position: absolute;
+    line-height: 60px;
+    font-size: 12px;
+    font-weight: 600;
+    margin: 60px 0 0 50px;
+}
+
+#arrow2{
+    position: absolute;
+    bottom: 0px;
+    width: 90px;
+    height: 70px;
+    background-color: yellow;
+    background-image: url(https://images.unsplash.com/photo-1502920873987-ac48e660a95d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Njl8fHBvdHxlbnwwfDB8MHx8&auto=format&fit=crop&w=500&q=60);
+    background-position: -65px -15px ;
+    background-size: 200px;
+}
+
+#arrow2 i{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* color: #ffffff; */
+    font-size: 50px;
+    font-weight: 100;
+}
+
+#btm{
+    display: flex;
+    width: 100%;
+    height: 30%;
+    background-color: #F1F1F1;
+}
+
+#btmlft{
+    position: relative;
+    display: flex;
+    width: 80%;
+    height: 100%;
+    background-color: rgb(13, 10, 63);
+    color: #ffffff;
+}
+
+#btmlft h6{
+    position: absolute;
+    top: 50px;
+    left: 85px;
+}
+
+#rubber{
+    position: absolute;
+    top: 40px;
+    left: 150px;
+    /* background-color: aqua; */
+    width: 30%;
+    height: 45%;
+    /* line-height: 50px; */
+}
+
+#rubber h1{
+    font-size: 45px;
+}
+#rubber p{
+    color: #ffffff69;
+}
+
+#btmlft h3{
+    position: absolute;
+    top: 40px;
+    left: 47.5%;
+    font-size: 25px;
+    font-weight: 100;
+}
+
+#glow{
+    /* overflow: hidden; */
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    left: 50%;
+    /* background-color: red; */
+}
+
+#light1{
+    width: 160px;
+    position: absolute;
+    top: 80px;
+    /* left: px; */
+    /* background-color: yellow; */
+}
+#light2{
+    width: 160px;
+    position: absolute;
+    top: 150px;
+    /* left: px; */
+    /* background-color: yellow; */
+}
+#light3{
+    width: 160px;
+    position: absolute;
+    top: 80px;
+    left: 50%;
+    /* background-color: yellow; */
+}
+#light4{
+    width: 160px;
+    position: absolute;
+    top: 150px;
+    left: 50%;
+    /* background-color: yellow; */
+}
+
+#glow i{
+    position: absolute;
+    left: -30px;
+    color: greenyellow;
+}
+
+#glow p{
+    color: #ffffff77;
+}
+
+#glow h4{
+    font-size: 20px;
+}
+
+#btmrgt{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 20%;
+    height: 100%;
+    background-color: yellow;
+    background-image: url(https://images.unsplash.com/photo-1504198266287-1659872e6590?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    background-size: cover;
+    overflow: hidden;
+}
+
+#about{
+    line-height: 22px;
+    padding: 4px 12px;
+    position: absolute;
+    bottom: 5%;
+    /* display: flex;
+    justify-content: center; */
+    width: 90%;
+    height: 25%;
+    background-color: pink;
+}
+
+
